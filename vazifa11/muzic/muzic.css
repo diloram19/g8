@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+}
+header{
+   display: flex;
+    position: fixed;
+    background-color: rgb(13, 13, 26);
+  height: 60px;
+   
+   justify-content: left;
+   font-size: 30px;
+   cursor: pointer;
+   width: 100%;
+
+  
+}
+
+header:hover{
+    background-color: crimson;
+}
+.item{
+    background-attachment: scroll;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(158, 219, 219);
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color:white ;
+    justify-content: center;
+margin: auto;
+
+ 
+}
+
+  
+
+.one{
+    background-image: url(https://funsochi.ru/sites/default/files/styles/soc_preview_1200x630/public/20161212-garage3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 120vh;
+}
+.two{
+    background-color: rgb(31, 31, 32);
+    
+}
+
+
+.img{
+    background-image: url(https://avatars.mds.yandex.net/i?id=e78f43a60b3688fd14ed5b49375de3dd-4893181-images-thumbs&n=13)  ;background-repeat: no-repeat;
+   
+    background-size: 100%  110vh;
+   text-align: center;
+    
+}
+.iteme{
+    background-color: rgb(31, 31, 32);
+    
+  
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+.five{
+    display: grid;
+ width: 100%;
+ height: 100vh;
+ background-color: seashell;
+ 
+ bottom: 200px;
+ 
+}
+.gift{
+    color: rgb(31, 31, 32);
+}
+.three{
+    display: grid;
+    width: 100%;
+    height: 130vh;
+}
+.iteme{
+    background-color: rgb(78, 77, 77);
+ grid-gap: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+  
+}
+a{text-decoration:none;
+    
+    margin: 30px;
+    
+    
+
+}
+a:hover{
+    background-color: rgb(202, 75, 164);
+  
+    
+}
+
+button{
+    position: relative;
+    left: 50%;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+h1,p{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.four{
+    width: 100%;
+
+}
+.six{width: 100%;
+    background-color: rgb(49, 47, 47);
+    display: grid;
+    height: 300px;
+
+}
+.seven{width: 100%;
+    background-color: black;
+    height: 40px;
+    color: blanchedalmond;
+
+}
